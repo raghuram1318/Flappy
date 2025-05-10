@@ -1,0 +1,1 @@
+flappy-bird-game-001.netlify.app  --> I used Netlify to deploy this game. Only issue is, it cannot run on mobiles and now my free trail on Cursor AI is finished. I have to find an alternative or create a new account with another email. As of now its my first Vibe Coding Work Share your thoughts and give some suggestions.
