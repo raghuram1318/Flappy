@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Eagle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="sky"></div>
+        <div class="clouds"></div>
+        <div class="sun"></div>
+        <div class="stars"></div>
+        <div class="moon"></div>
+    </div>
+    <div class="game-container">
+        <div id="bird">
+            <div class="eagle-body"></div>
+            <div class="eagle-wing left"></div>
+            <div class="eagle-wing right"></div>
+            <div class="eagle-head"></div>
+            <div class="eagle-beak"></div>
+        </div>
+        <div id="score">Score: 0</div>
+        <div id="high-score">High Score: 0</div>
+        <button id="reset-high-score" class="reset-button">Reset High Score</button>
+        <div id="game-over" class="hidden">
+            <h2>Game Over</h2>
+            <p>Score: <span id="final-score">0</span></p>
+            <p>High Score: <span id="high-score-final">0</span></p>
+            <p class="restart-message">Press SPACE BAR to play again</p>
+        </div>
+        <div id="celebration" class="hidden">
+            <div class="celebration-content">
+                <h2>NEW HIGH SCORE!</h2>
+                <div class="confetti"></div>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
